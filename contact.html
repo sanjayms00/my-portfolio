@@ -179,12 +179,12 @@
           document.getElementById("email").style.borderColor = "red";
         }
         else if(subject == "") {
-          swal("Error!", "Name is required!", "error");
+          swal("Error!", "Subject is required!", "error");
           document.getElementById("subject").focus();
           document.getElementById("subject").style.borderColor = "red";
         }
         else if(message == "") {
-          swal("Error!", "Name is required!", "error");
+          swal("Error!", "Message is required!", "error");
           document.getElementById("message").focus();
           document.getElementById("message").style.borderColor = "red";
         }
@@ -195,7 +195,7 @@
               data:$("#submit-form").serialize(),
               method:"post",
               success:function (response){
-                swal("Success!", "You clicked the button!", "success");
+                swal("Success!", "Form Submitted Successfully!", "success");
                 setTimeout(pageReload, 2000)
               },
               error:function (err){
