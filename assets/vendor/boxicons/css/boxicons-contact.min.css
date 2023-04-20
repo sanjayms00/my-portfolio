@@ -1,0 +1,77 @@
+@font-face {
+    font-family: boxicons;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/boxicons.eot);
+    src: url(../fonts/boxicons.eot) format('embedded-opentype'),url(../fonts/boxicons.woff2) format('woff2'),url(../fonts/boxicons.woff) format('woff'),url(../fonts/boxicons.ttf) format('truetype'),url(../fonts/boxicons.svg?#boxicons) format('svg')
+}
+
+.bx {
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.bxl-facebook:before {
+    content: "\e92f"
+}
+
+.bxl-instagram:before {
+    content: "\e942"
+}
+
+.bxl-linkedin:before {
+    content: "\e94d"
+}
+
+.bxl-skype:before {
+    content: "\e96f"
+}
+
+.bxl-twitter:before {
+    content: "\e982"
+}
+
+.bx-book-content:before {
+    content: "\e9e5"
+}
+
+.bx-chevron-up:before {
+    content: "\ea57"
+}
+
+.bx-envelope:before {
+    content: "\eac1"
+}
+
+.bx-file-blank:before {
+    content: "\ead6"
+}
+
+.bx-home:before {
+    content: "\eb12"
+}
+
+.bx-navigation:before {
+    content: "\eb9d"
+}
+
+.bx-phone:before {
+    content: "\ebb2"
+}
+
+.bx-server:before {
+    content: "\ebfd"
+}
+
+.bx-user:before {
+    content: "\ec63"
+}
